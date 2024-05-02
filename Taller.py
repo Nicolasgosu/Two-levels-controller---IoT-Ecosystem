@@ -3,7 +3,7 @@ import thingspeak
 
 
 puerto_serial = serial.Serial('COM6', 9600)  
-canal = thingspeak.Channel(id='2528886', api_key='WYQWLYTSN7O8O5RL')
+canal = thingspeak.Channel(id='[replace by id]', api_key='[Replace by key]')
 
 try:
     while True:
